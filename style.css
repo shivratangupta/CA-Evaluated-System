@@ -87,5 +87,24 @@ footer{
 	h2 {
 		padding-bottom: 30px;
 	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-sm-4 {
+		width: 33.33%
+	}
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+	#content{
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+}
