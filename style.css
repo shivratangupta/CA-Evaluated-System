@@ -55,7 +55,7 @@ br{
 	margin-top: 30px;
 }
 
-.button{
+.button {
 	float:left;
 	width: 31.33%;
 	margin:1%;
@@ -89,15 +89,15 @@ footer{
 	}
 
 	.col-lg-12 {
-		width: 100%;
+		width: 98%;
 	}
 
-	.col-md-6 {
-		width: 50%;
+	.col-lg-6 {
+		width: 48%;
 	}
 
-	.col-sm-4 {
-		width: 33.33%
+	.col-lg-4 {
+		width: 31.33%
 	}
 }
 
@@ -106,5 +106,44 @@ footer{
 		width: 70%;
 		margin: auto;
 		margin-top: 40px;
+	}
+
+	#links {
+		min-height: 240px
+	}
+
+	.col-md-12 {
+		width: 98%;
+	}
+
+	.col-md-6 {
+		width: 48%;
+	}
+
+	.col-md-4 {
+		width: 31.33%;
+	}
+}
+
+@media (max-width: 767px) {
+	#content {
+		width: 90%;
+		margin: auto;
+		margin-top: 40px
+	}
+
+	#links {
+		min-height: 340px;
+	}
+	.col-sm-12 {
+		width: 98%;
+	}
+
+	.col-sm-6 {
+		width: 48%;
+	}
+
+	.col-sm-4 {
+		width: 31.33%;
 	}
 }
